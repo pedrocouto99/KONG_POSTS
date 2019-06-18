@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super() }} - Index{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1>Welcome to Kong Posts</h1>
+    <p class="lead">Kong Posts is a tool sharing thoughts and opinions,
+    and respect is the value we most admire.</p>
+    <p><a class="btn btn-lg btn-success" href="#" role="button">Log in</a></p>
+</div> 
+<html>
+
+<head>
+    <title>Fundo ajustável</title>
+    <style>
+        body {
+            background-image: url(fundo.png);
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: palegreen;
+        }
+    </style>
+</head>
+
+<body>
+    
+</body>
+
+</html>
+<div class="row marketing">
+    <div class="col-lg-6">
+        <h4>News</h4>
+        <p>Latest world news.</p>
+
+        <h4>Sports</h4>
+         <p>NBA
+            NFL
+            SOCCER WORLD
+            TENIS
+            GOLF </p>
+
+        <h4>Economy</h4>
+        <p>Economy news </p>
+    </div>
+
+    <div class="col-lg-6">
+        <h4>Entertainment</h4>
+        <p>Entertainment news</p>
+
+        <h4>Technology</h4>
+        <p>Technology news</p>
+
+        <h4>Cheers</h4>
+        <p>Cheers news</p>
+    </div>
+</div>
+{% endblock %}

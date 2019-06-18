@@ -1,0 +1,7 @@
+pip install flask
+pip install flask-migrate
+
+Entrar no ambiente virtual:
+   -- venv\scripts\activate
+para sair: deactivate
+
